@@ -1,3 +1,4 @@
+.env
 # Logs
 logs
 *.log
@@ -69,7 +70,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+#.env
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -102,3 +103,5 @@ dist
 
 # TernJS port file
 .tern-port
+.DS_Store
+bash.sh
