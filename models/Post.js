@@ -11,7 +11,7 @@ class Post extends Model {
                 // find post just voted on
                 return Post.findOne({
                     where: {
-                        id: req.body.post_id
+                        id: body.post_id
                     },
                     attributes: [
                         'id',
